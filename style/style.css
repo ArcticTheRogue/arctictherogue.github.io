@@ -54,3 +54,7 @@ p, h4 {
 a:link, a:visited {
   color: #8FBCBB;
 }
+
+a:hover {
+  color: #7ea7a6;
+}
