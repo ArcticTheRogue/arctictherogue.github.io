@@ -3,6 +3,11 @@
   src: url('../assets/fonts/sourcesanspro/SourceSans3-Bold.ttf');
 }
 
+@font-face {
+  font-family: "Source Sans Pro Normal";
+  src: url('../assets/fonts/sourcesanspro/SourceSans3-Regular.ttf');
+}
+
 html {
   font-size: 18px;
   font-family: "Source Sans Pro", sans-serif;
@@ -18,6 +23,20 @@ body {
   margin-left: auto;
   margin-right: auto;
   max-width: 600px;
+  background-color: #434c5e;
+  padding: 5px 20px 5px 20px;
+  border: 5px solid #3b4252;
+  margin-top: 50px;
+  box-shadow: 10px 10px #242831;
+}
+
+.blog {
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Source Sans Pro Normal", sans-serif;
+  text-align: left;
+  text-indent: 50px;
+  max-width: 1000px;
   background-color: #434c5e;
   padding: 5px 20px 5px 20px;
   border: 5px solid #3b4252;
